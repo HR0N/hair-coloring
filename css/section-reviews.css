@@ -1,0 +1,82 @@
+.section-reviews{
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #B5A489;
+}
+.section-reviews .section-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 60px;
+    color: white;
+}
+.section-reviews .col-1{
+}
+.section-reviews .col-2{}
+.section-reviews .col-2 .title{}
+.section-reviews .col-2 .title .gradient{
+    font-weight: bold;
+    background: rgb(211,201,184);
+    background: linear-gradient(90deg, rgba(211,201,184,1) 0%, rgba(240,237,231,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.section-reviews .col-2 .description{
+    font-size: 14px;
+    margin: 40px 0;
+}
+.section-reviews .col-2 .btn-link{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    width: min-content;
+    white-space: nowrap;
+    padding: 16px 40px;
+    border-radius: 1.5rem;
+    background-color: white;
+    cursor: pointer;
+    transition: .1s;
+}
+.section-reviews .col-2 .btn-link:hover{
+    background-color: #cebb9c;
+    color: white;
+    box-shadow: 0 2px 8px dimgrey;
+}
+.section-reviews{}
+.section-reviews{}
+.section-reviews{}
+.section-reviews{}
+.section-reviews{}
+.section-reviews{}
+.section-reviews{}
+.section-reviews{}
+
+
+
+/*                                                       . . : : MEDIA : : . .*/
+
+@media screen and (max-width: 1441px) {
+
+}
+@media screen and (max-width: 1025px) {
+
+}
+@media screen and (max-width: 769px) {
+    .section-reviews .section-wrapper{
+        grid-template-columns: 1fr;
+        width: 90%;
+        justify-content: center;
+    }
+
+}
+@media screen and (max-width: 426px) {
+    .section-reviews .section-wrapper{
+        font-size: 40px;
+    }
+
+}
+@media screen and (max-width: 321px) {
+
+}
+
+/*                                                       . . : : Dynamic Classes : : . .*/

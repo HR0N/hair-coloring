@@ -1,0 +1,153 @@
+.section-chats{
+    margin-top: 50px;
+    width: 100%;
+    background-image: url("../img/div.wrapper1.png");
+    background-size: cover;
+    z-index: 5;
+    margin-bottom: 0;
+}
+.section-chats .block-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+.section-chats .block-1 .col{
+    max-width: 220px;
+    text-align: center;
+}
+.section-chats .block-1 .col .title{
+    font-size: 44px;
+    font-weight: bold;
+}
+.section-chats .block-1 .col .description{
+    max-width: 180px;
+    font-size: 12px;
+}
+.section-chats .block-2{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+.section-chats .block-2 .col-1{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.section-chats .block-2 .col-1 .titles{
+}
+.section-chats .block-2 .col-1 .title-1{
+    font-size: 50px;
+}
+.section-chats .block-2 .col-1 .title-2{
+    font-size: 50px;
+    font-weight: bold;
+    background: rgb(181,164,137);
+    background: linear-gradient(90deg, rgba(181,164,137,1) 0%, rgba(225,219,208,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.section-chats .block-2 .col-1 .video{
+    margin-top: 20px;
+    width: 100%;
+}
+.section-chats .block-2 .col-1 .video iframe{
+    width: 100%;
+    height: 300px;
+    border-radius: .5rem;
+}
+.section-chats .block-2 .col-2{
+    display: flex;
+    flex-direction: column;
+}
+.section-chats .block-2 .col-2 .row{
+    margin-top: 35px;
+    font-size: .8em;
+}
+.section-chats .block-2 .col-2 .row:after{
+    content: '';
+    display: block;
+    width: 70px;
+    margin-top: 35px;
+    border-bottom: 1px solid #B5A489;
+}
+.section-chats .block-2 .col-2 .row:nth-last-child(1):after{
+    border-bottom: none;
+}
+.section-chats .block-2 .col-2 .row:nth-child(1){
+    margin-top: 0;
+}
+.section-chats .block-2 .col-2 .row-1{}
+.section-chats .block-2 .col-2 .row-2{}
+.section-chats .block-2 .col-2 .row-3{}
+.section-chats .block-2 .col-2 .row-4{}
+.section-chats .block-2 .col-2 .row-5{}
+
+
+
+
+
+/*                                                       . . : : MEDIA : : . .*/
+
+@media screen and (max-width: 1441px) {
+
+}
+@media screen and (max-width: 1025px) {
+    .section-chats .block-2 .col-2 .row{
+        margin-top: 30px;
+    }
+    .section-chats .block-2 .col-2 .row:after{
+        margin-top: 30px;
+    }
+
+}
+@media screen and (max-width: 769px) {
+    .section-chats .block-2 .col-1{
+        align-items: flex-start;
+    }
+    .section-chats .block-2{
+        grid-template-columns: 1fr;
+    }
+    .section-chats .block-2 .col-2{
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+    }
+    .section-chats .block-2 .col-2 .row{
+        margin-top: 20px;
+        font-size: .8em;
+    }
+    .section-chats .block-2 .col-2 .row:after{
+        display: none;
+    }
+    .section-chats .block-2 .col-2{
+        position: relative;
+    }
+    .section-chats .block-2 .col-2 .row{
+        padding: 12px;
+        font-size: 1em;
+        width: clamp(290px, 60%, 400px);
+    }
+
+}
+@media screen and (max-width: 426px) {
+    .section-wrapper{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+}
+@media screen and (max-width: 376px) {
+    .section-chats .block-1 .col .title {
+        font-size: 36px;
+    }
+
+}
+@media screen and (max-width: 321px) {
+
+}
+
+/*                                                       . . : : Dynamic Classes : : . .*/

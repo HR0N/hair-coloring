@@ -1,0 +1,72 @@
+header{
+
+}
+header nav{
+
+}
+header nav ul{
+    display: flex;
+
+    gap: 10px;
+    padding: 14px 40px;
+    margin: 0;
+
+    list-style: none;
+}
+header nav ul li{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+header nav ul li a{
+    padding: 6px 12px;
+    transition: .1s;
+    text-transform: uppercase;
+    font-family: Roboto, sans-serif;
+}
+header nav ul li a:hover{
+    background-color: #B5A489;
+    color: white;
+}
+header .toggle{
+    display: none;
+    justify-content: flex-end;
+    padding: 6px 12px;
+    font-size: 1.4em;
+}
+
+
+
+
+
+/*                                                       . . : : MEDIA : : . .*/
+
+@media screen and (max-width: 1025px) {
+
+}
+@media screen and (max-width: 769px) {
+    header nav ul{
+        flex-direction: column;
+        max-height: 64px;
+        overflow: hidden;
+        transition: .3s;
+        background-color: rgba(181, 164, 137, 0.2);
+    }
+    header .open{
+        display: flex;
+    }
+    header nav ul li a{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 426px) {
+    header nav ul{
+        padding: 14px 12px;
+    }
+
+}
+@media screen and (max-width: 321px) {
+
+}
+
+/*                                                       . . : : Dynamic Classes : : . .*/

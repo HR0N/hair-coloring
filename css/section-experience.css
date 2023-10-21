@@ -1,0 +1,138 @@
+.section-experience{
+    margin: 0;
+    width: 100%;
+    background-color: #B5A489;
+    color: white;
+}
+.section-experience .section-wrapper{
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    justify-content: space-between;
+    gap: 20px;
+}
+.section-experience .col1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.section-experience .col1 .item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    padding: 50px 30px;
+    text-align: center;
+    background-color: #C4B6A0;
+    border-radius: 2rem;
+}
+.section-experience .col1 .item2, .section-experience .col1 .item3{
+    background-color: #9C8662;
+}
+.section-experience .col1 .item .count{
+    font-size: 4em;
+}
+.section-experience .col1 .item .description{
+    margin-top: 20px;
+    font-size: .9em;
+}
+.section-experience .col2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+.section-experience .col2{
+    justify-content: space-between;
+}
+.section-experience .col2 .row{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.section-experience .col2 .percent{
+    font-size: 4em;
+}
+.section-experience .col2 .description{
+    margin-top: 10px;
+    font-size: .9em;
+    font-weight: 100;
+}
+
+
+
+
+/*                                                       . . : : MEDIA : : . .*/
+
+@media screen and (max-width: 1441px) {
+
+}
+@media screen and (max-width: 1025px) {
+    .section-experience .col1 .item{
+        padding: 50px 20px;
+    }
+    .section-experience .col2 .row{
+        max-width: 100%;
+    }
+
+}
+@media screen and (max-width: 769px) {
+    .section-experience .col1 .item{
+        padding: 40px 15px;
+    }
+    .section-experience .col1 .item .count{
+        font-size: 3em;
+    }
+    .section-experience .col1 .item .description{
+        margin-top: 15px;
+        font-size: .8em;
+    }
+    .section-experience .col2 .percent{
+        font-size: 3em;
+    }
+    .section-experience .col2 .description{
+        margin-top: 10px;
+        font-size: .7em;
+    }
+
+}
+@media screen and (max-width: 426px) {
+    .section-experience .section-wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: space-between;
+        justify-items: center;
+        gap: 40px;
+    }
+    .section-experience .col1{
+        gap: 15px;
+    }
+    .section-experience .col2 .percent{
+        font-size: 4em;
+    }
+    .section-experience .col2 .description{
+        margin-top: 10px;
+        font-size: .9em;
+    }
+
+}
+@media screen and (max-width: 376px) {
+    .section-experience .col1{
+        grid-template-columns: 1fr;
+    }
+    .section-experience .col1 .item .count{
+        font-size: 4em;
+    }
+    .section-experience .col1 .item .description{
+        margin-top: 15px;
+        font-size: 1em;
+    }
+    .section-experience .col1 .item{
+        background-color: #C4B6A0;
+    }
+    .section-experience .col1 .item2, .section-experience .col1 .item4{
+        background-color: #9C8662;
+    }
+
+}
+
+/*                                                       . . : : Dynamic Classes : : . .*/

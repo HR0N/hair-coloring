@@ -1,0 +1,37 @@
+.section{
+    width: 70%;
+    margin: 40px auto;
+    font-family: Inter, sans-serif;
+}
+
+.section-wrapper{
+    width: 70%;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+
+/*                                                       . . : : MEDIA : : . .*/
+
+@media screen and (max-width: 1025px) {
+    .section, .section-wrapper{
+        width: 80%;
+    }
+
+}
+@media screen and (max-width: 769px) {
+    .section, .section-wrapper{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 426px) {
+    .section, .section-wrapper{
+        width: 98%;
+    }
+
+}
+@media screen and (max-width: 321px) {
+
+}
+
+/*                                                       . . : : Dynamic Classes : : . .*/

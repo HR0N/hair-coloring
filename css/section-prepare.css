@@ -1,0 +1,98 @@
+.section-prepare{
+    font-size: 86px;
+    width: 100%;
+    margin: 0;
+    padding: 60px 0;
+    background: rgb(247,247,247);
+    background: linear-gradient(180deg, rgba(247,247,247,1) 0%, rgba(245,245,245,1) 100%);
+}
+.section-prepare__wrapper{
+    width: 70%;
+    margin: 0 auto;
+}
+.section-prepare .title{
+    margin-top: 70px;
+    line-height: 1em;
+}
+.section-prepare .title .gradient1, .section-prepare .title .gradient2{
+    font-weight: bold;
+    margin-top: 6px;
+    background: rgb(181,164,137);
+    background: linear-gradient(90deg, rgba(181,164,137,1) 0%, rgba(225,219,208,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.section-prepare .title .gradient1{}
+.section-prepare .title .gradient2{}
+.section-prepare .description{
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+
+
+
+/*                                                       . . : : MEDIA : : . .*/
+
+@media screen and (max-width: 1441px) {
+    .section-prepare {
+        font-size: 80px;
+    }
+
+}
+@media screen and (max-width: 1025px) {
+    .section-prepare__wrapper{
+        width: 80%;
+    }
+    .section-prepare {
+        font-size: 66px;
+    }
+
+}
+@media screen and (max-width: 769px) {
+    .section-prepare {
+        font-size: 56px;
+    }
+    .section-prepare .description{
+        font-size: 18px;
+    }
+    .section-prepare__wrapper{
+        width: 90%;
+    }
+
+}
+@media screen and (max-width: 426px) {
+    .section-prepare {
+        font-size: 32px;
+    }
+    .section-prepare .description{
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    .section-prepare__wrapper{
+        width: 94%;
+    }
+
+}
+@media screen and (max-width: 376px) {
+    .section-prepare {
+        font-size: 26px;
+    }
+    .section-prepare .description{
+        margin-top: 20px;
+        font-size: 12px;
+    }
+
+}
+@media screen and (max-width: 321px) {
+    .section-prepare {
+        font-size: 24px;
+    }
+    .section-prepare .description{
+        margin-top: 20px;
+        font-size: 10px;
+    }
+
+}
+
+/*                                                       . . : : Dynamic Classes : : . .*/
