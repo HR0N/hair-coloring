@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a4eb087-6a6a-4005-a6cc-d91e21a193d8" name="Default Changelist" comment="" />
+    <list default="true" id="2a4eb087-6a6a-4005-a6cc-d91e21a193d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/reviews/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/reviews/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/reviews/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/reviews/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/reviews/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/reviews/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/reviews-slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/section-experience.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/slick/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/slick/CONTRIBUTING.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/slick/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/slick/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/slick/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/slick/README.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/slick/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/slick/component.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/slick/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/slick/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/slick/slick.jquery.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/slick/slick/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/slick/slick/config.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/slick/slick/fonts/slick.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/slick/slick/fonts/slick.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/slick/slick/fonts/slick.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/slick/slick/fonts/slick.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/slick/slick/slick-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/slick/slick/slick-theme.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/slick/slick/slick-theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/slick/slick/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/slick/slick/slick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/slick/slick/slick.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/slick/slick/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/slick/slick/slick.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/section-experience.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/section-experience.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/section-reviews.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/section-reviews.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,13 +50,20 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2X1fVt61wEoFhDPo07psSBcA56n" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
@@ -39,12 +84,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697801533215</updated>
-      <workItem from="1697801537650" duration="30171000" />
+      <workItem from="1697801537650" duration="30475000" />
+      <workItem from="1697927662733" duration="10655000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="277" y="55" key="SettingsEditor" timestamp="1697820061934">

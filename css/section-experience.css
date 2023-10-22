@@ -12,7 +12,7 @@
 }
 .section-experience .col1{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, calc(50% - 10px));
     gap: 20px;
 }
 .section-experience .col1 .item{
@@ -112,6 +112,10 @@
     .section-experience .col2 .description{
         margin-top: 10px;
         font-size: .9em;
+    }
+    .section-experience .col1 .item{
+        min-height: 140px;
+        padding: 40px 15px;
     }
 
 }

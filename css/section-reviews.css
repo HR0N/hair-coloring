@@ -6,13 +6,66 @@
 }
 .section-reviews .section-wrapper{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, calc(50% - 10px));
+    gap: 20px;
     font-size: 60px;
     color: white;
 }
 .section-reviews .col-1{
+    position: relative;
 }
-.section-reviews .col-2{}
+.section-reviews .col-1 .slider-nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: min-content;
+    white-space: nowrap;
+    font-size: 14px;
+}
+.section-reviews .col-1 .slider-nav .count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+.section-reviews .col-1 .slider-nav .nav-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    padding: 12px;
+    border: 1px solid rgba(245, 245, 245, 0.5);
+    border-radius: 50%;
+}
+.section-reviews .col-1 .slider-nav .nav-btn:hover{
+    border: 1px solid rgba(245, 245, 245, 1);
+    background-color: rgba(255, 255, 255, 0.1);
+    user-select: none;
+    cursor: pointer;
+}
+.section-reviews .col-1 .slider-nav .nav-btn:active{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.section-reviews .col-1 .slider-nav{
+    margin-bottom: 10px;
+}
+.section-reviews .col-1 .slider{
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+}
+.section-reviews .col-1 .slider .slide{
+}
+.section-reviews .col-1 .slider .slide img{
+    width: calc(100% - 20px);
+    margin: 0 auto;
+}
+.section-reviews .col-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .section-reviews .col-2 .title{}
 .section-reviews .col-2 .title .gradient{
     font-weight: bold;
@@ -63,7 +116,7 @@
 }
 @media screen and (max-width: 769px) {
     .section-reviews .section-wrapper{
-        grid-template-columns: 1fr;
+        grid-template-columns: 100%;
         width: 90%;
         justify-content: center;
     }

@@ -21,6 +21,9 @@
     <link rel="stylesheet" href="css/section-online-pgogram.css">
     <link rel="stylesheet" href="css/section-chats.css">
     <link rel="stylesheet" href="css/section-reviews.css">
+    <!--    Slick   -->
+    <link rel="stylesheet" href="libs/slick/slick/slick.css">
+<!--    <link rel="stylesheet" href="libs/slick/slick/slick-theme.css">-->
     <!--    h-bootstrap     -->
     <link rel="stylesheet" href="libs/h-bootstrap/node_modules/h-bootstrap/h-boobstrap.css">
     <!--    h-icons     -->
@@ -71,19 +74,19 @@
     <div class="section-wrapper">
         <div class="col1">
             <div class="item item1">
-                <div class="count">10000+</div>
+                <div class="count" data-value="10000+">0</div>
                 <div class="description">задоволених кліентів<br> Лілії Кірдяк</div>
             </div>
             <div class="item item2">
-                <div class="count">10+</div>
+                <div class="count" data-value="10+">0</div>
                 <div class="description">проведених курси</div>
             </div>
             <div class="item item3">
-                <div class="count">1</div>
+                <div class="count" data-value="1">0</div>
                 <div class="description">Онлайн курс, який в якому<br> зібрано весь досвід та знання.</div>
             </div>
             <div class="item item4">
-                <div class="count">100+</div>
+                <div class="count" data-value="100+">0</div>
                 <div class="description">выпускників школи<br> колористів MAMABLONDA</div>
             </div>
         </div>
@@ -176,7 +179,7 @@
                     <div class="title-1">Нас поєднують</div>
                     <div class="title-2">чати учнів</div>
                 </div>
-                <div class="video"><iframe src="https://www.youtube.com/embed/K4TOrB7at0Y?si=lsY7E2OykX_BD0-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+<!--                <div class="video"><iframe src="https://www.youtube.com/embed/K4TOrB7at0Y?si=lsY7E2OykX_BD0-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>-->
             </div>
             <div class="col-2">
                 <div class="row row-1">Отримуйте доступ до чатів перукарів-колористів,
@@ -201,7 +204,21 @@
 
 <section class="section section-reviews" id="reviews">
     <div class="section-wrapper">
-        <div class="col-1"></div>
+        <div class="col-1">
+            <div class="slider-nav">
+                <div class="nav-btn hicon-chevron-left"></div>
+                <div class="count">1 / 3</div>
+                <div class="nav-btn hicon-chevron-right"></div>
+            </div>
+            <div class="slider">
+                <div class="slide"><img src="./img/reviews/1.jpg" alt="review"></div>
+                <div class="slide"><img src="./img/reviews/2.jpg" alt="review"></div>
+                <div class="slide"><img src="./img/reviews/3.jpg" alt="review"></div>
+                <div class="slide"><img src="./img/reviews/4.jpg" alt="review"></div>
+                <div class="slide"><img src="./img/reviews/5.jpg" alt="review"></div>
+                <div class="slide"><img src="./img/reviews/6.jpg" alt="review"></div>
+            </div>
+        </div>
         <div class="col-2">
             <div class="title">Результати<br>та <span class="gradient">відгуки</span><br>учениць<br><b>Лілії Кірдяк</b></div>
             <div class="description">Все ще сумніваєтеся в тому, що ця освіта є корисною?</div>
@@ -230,4 +247,7 @@
 <script src="libs/jquery/jquery.js"></script>
 <script src="js/Father.js"></script>
 <script src="js/header.js"></script>
+<script src="js/section-experience.js"></script>
+<script src="libs/slick/slick/slick.js"></script>
+<script src="js/reviews-slider.js"></script>
 </html>
