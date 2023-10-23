@@ -54,11 +54,20 @@
     margin-top: 20px;
     width: 100%;
 }
-.section-chats .block-2 .col-1 .video iframe{
+.section-chats .block-2 .col-1 .video iframe, .section-chats .block-2 .col-1 .video video{
+    position: relative;
     width: 100%;
     height: 300px;
     border-radius: .5rem;
 }
+/*.section-chats .block-2 .col-1 .video video .buttons{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.section-chats .block-2 .col-1 .video video .hicon-play{
+    position: absolute;
+}*/
 .section-chats .block-2 .col-2{
     display: flex;
     flex-direction: column;

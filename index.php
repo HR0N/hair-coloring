@@ -195,7 +195,19 @@
                     <div class="title-1">Нас поєднують</div>
                     <div class="title-2">чати учнів</div>
                 </div>
-                <div class="video"><iframe src="https://www.youtube.com/embed/vYwcK_GMKzM?si=cUKB4XfHGi7VdXvw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                <div class="video">
+                    <div id="video-container">
+                        <!-- HTML5 video тег для воспроизведения видео -->
+                        <video id="my-video" controls>
+                            <source src="img/video_2023-10-23_22-59-46.mp4" type="video/mp4">
+                            Ваш браузер не поддерживает видео тег.
+                        </video>
+                        <!-- Кнопка для запуска/паузы видео -->
+                        <!--<div class="buttons">
+                            <button id="play-pause-button" class="hicon-play"></button>
+                        </div>-->
+                    </div>
+                </div>
             </div>
             <div class="col-2">
                 <div class="row row-1">Отримуйте доступ до чатів перукарів-колористів,
