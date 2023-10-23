@@ -22,7 +22,7 @@ class Modal_google_sheets extends Father{
     }
 
     send_to_google_sheets(e){
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbzkW99OsruhuJ6kM2P27vfO6gPZLlmQ7Sk4H9W6pNnTt4nFgMZ81YDj4g-pE7pXpClF/exec';
+        const scriptURL = '';
         const form = this.form[0];
 
         e.preventDefault();

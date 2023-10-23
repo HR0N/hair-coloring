@@ -95,6 +95,30 @@
     }
 
 }
+@media screen and (max-width: 541px) {
+    .section-experience .section-wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: space-between;
+        justify-items: center;
+        gap: 40px;
+    }
+    .section-experience .col1{
+        gap: 15px;
+    }
+    .section-experience .col2 .percent{
+        font-size: 4em;
+    }
+    .section-experience .col2 .description{
+        margin-top: 10px;
+        font-size: .9em;
+    }
+    .section-experience .col1 .item{
+        min-height: 140px;
+        padding: 40px 15px;
+    }
+
+}
 @media screen and (max-width: 426px) {
     .section-experience .section-wrapper{
         display: grid;

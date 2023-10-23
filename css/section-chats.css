@@ -34,7 +34,7 @@
 .section-chats .block-2 .col-1{
     position: relative;
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     flex-direction: column;
 }
 .section-chats .block-2 .col-1 .titles{

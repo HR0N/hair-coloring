@@ -8,7 +8,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>MAMABLONDA</title>
 
     <!--    CSS     -->
     <link rel="stylesheet" href="css/settings.css">
@@ -37,10 +37,10 @@
         <ul>
             <li class="hicon-xmark close toggle"></li>
             <li class="hicon-bars open toggle"></li>
-            <li><a href="#experience">Досвід</a></li>
-            <li><a href="#program">Програма</a></li>
-            <li><a href="#chats">Учні</a></li>
-            <li><a href="#reviews">Відгуки</a></li>
+            <li><a class="header-link" href="#experience">Досвід</a></li>
+            <li><a class="header-link" href="#program">Програма</a></li>
+            <li><a class="header-link" href="#chats">Учні</a></li>
+            <li><a class="header-link" href="#reviews">Відгуки</a></li>
         </ul>
     </nav>
 </header>
@@ -55,7 +55,7 @@
             <span>Онлайн-курси</span>
             <span>Офлайн-курси</span>
         </div>
-        <div class="link-btn">ЗАПОВНИТИ АНКЕТУ ПЕРЕДЗАПИСУ</div>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSelnPLsf8Z56Q5luEyX36SjVudIoCEtVAM-dc48IyBkwClQdg/viewform" target="_blank" class="link-btn">ЗАПОВНИТИ АНКЕТУ ПЕРЕДЗАПИСУ</a>
     </div>
     <div class="col2"><img src="img/MAMABLONDA%201.png" alt="MAMABLONDA"></div>
 </section>
@@ -150,7 +150,7 @@
             </div>
         </div>
         <div class="block3">
-            <div class="link-btn">ЗАПОВНИТИ АНКЕТУ ПЕРЕДЗАПИСУ</div>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSelnPLsf8Z56Q5luEyX36SjVudIoCEtVAM-dc48IyBkwClQdg/viewform" target="_blank" class="link-btn">ЗАПОВНИТИ АНКЕТУ ПЕРЕДЗАПИСУ</a>
         </div>
     </div>
 </section>
@@ -163,7 +163,7 @@
             <div class="title-2">Лілія<br>Кірдяк</div>
             <div class="description-2">Топ-тренер колористів, автор власних навчальних програм. <br>Понад 100
                 випущених професійних колористів</div>
-            <a target="_blank" href="https://www.instagram.com/veronikakravchenko/" class="btn-link hicon-instagram"> Перейти в мій особістий INSTAGRAM</a>
+            <a target="_blank" href="https://instagram.com/liliyakirdyak?igshid=MzRlODBiNWFlZA==" class="btn-link hicon-instagram"> Перейти в мій особістий INSTAGRAM</a>
         </div>
         <div class="col-2"><img src="./img/MAMABLONDA-photo.png" alt="MAMABLONDA"></div>
     </div>
@@ -238,7 +238,7 @@
         <div class="col-2">
             <div class="title">Результати<br>та <span class="gradient">відгуки</span><br>учениць<br><b>Лілії Кірдяк</b></div>
             <div class="description">Все ще сумніваєтеся в тому, що ця освіта є корисною?</div>
-            <div class="btn-link">Заповнити анкету передзапису</div>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSelnPLsf8Z56Q5luEyX36SjVudIoCEtVAM-dc48IyBkwClQdg/viewform" target="_blank" class="btn-link">Заповнити анкету передзапису</a>
         </div>
     </div>
 </section>
@@ -256,10 +256,10 @@
 <footer>
     <div class="row row-1">
         <div class="social-networks">
-            <a target="_blank" href="#"><div class="hicon-telegram"></div></a>
-            <a target="_blank" href="#"><div class="hicon-whatsapp"></div></a>
-            <a target="_blank" href="#"><div class="hicon-viber"></div></a>
-            <a target="_blank" href="https://www.instagram.com/veronikakravchenko/"><div class="hicon-instagram"></div></a>
+            <a target="_blank" href="https://t.me/+17869439764"><div class="hicon-telegram"></div></a>
+<!--            <a target="_blank" href="#"><div class="hicon-whatsapp"></div></a>-->
+<!--            <a target="_blank" href="#"><div class="hicon-viber"></div></a>-->
+            <a target="_blank" href="https://instagram.com/liliyakirdyak?igshid=MzRlODBiNWFlZA=="><div class="hicon-instagram"></div></a>
         </div>
         <div class="rights">
             <div>© 2023  MAMABLONDA / Лілія Кірдяк.</div>
