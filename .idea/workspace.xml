@@ -2,43 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a4eb087-6a6a-4005-a6cc-d91e21a193d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/reviews/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/reviews/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/reviews/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/reviews/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/reviews/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/reviews/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/reviews-slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/section-experience.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/slick/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/slick/CONTRIBUTING.markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/slick/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/slick/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/slick/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/slick/README.markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/slick/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/slick/component.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/slick/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/slick/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/slick/slick.jquery.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/slick/slick/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/slick/slick/config.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/slick/slick/fonts/slick.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/slick/slick/fonts/slick.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/slick/slick/fonts/slick.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/slick/slick/fonts/slick.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/slick/slick/slick-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/slick/slick/slick-theme.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/slick/slick/slick-theme.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/slick/slick/slick.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/slick/slick/slick.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/slick/slick/slick.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/slick/slick/slick.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/slick/slick/slick.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/modal_google_sheets.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/section-acquaintance.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/MAMABLONDA-photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/MAMABLONDA-photo.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/modal_google_sheets.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/section-experience.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/section-experience.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/section-reviews.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/section-reviews.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/section-chats.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/section-chats.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/reviews-slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/reviews-slider.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +57,8 @@
       <option name="presentableId" value="Default" />
       <updated>1697801533215</updated>
       <workItem from="1697801537650" duration="30475000" />
-      <workItem from="1697927662733" duration="10655000" />
+      <workItem from="1697927662733" duration="11005000" />
+      <workItem from="1697994551933" duration="7209000" />
     </task>
     <servers />
   </component>

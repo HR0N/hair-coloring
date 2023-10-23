@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="css/section-online-pgogram.css">
     <link rel="stylesheet" href="css/section-chats.css">
     <link rel="stylesheet" href="css/section-reviews.css">
+    <link rel="stylesheet" href="css/modal_google_sheets.css">
+    <link rel="stylesheet" href="css/section-acquaintance.css">
     <!--    Slick   -->
     <link rel="stylesheet" href="libs/slick/slick/slick.css">
 <!--    <link rel="stylesheet" href="libs/slick/slick/slick-theme.css">-->
@@ -153,6 +155,20 @@
     </div>
 </section>
 
+<section class="section section-acquaintance" id="acquaintance">
+    <div class="section-wrapper">
+        <div class="col-1">
+            <div class="title-1">MAMABLONDA</div>
+            <div class="description-1">Давайте знайомитись, авторка проекта</div>
+            <div class="title-2">Лілія<br>Кірдяк</div>
+            <div class="description-2">Топ-тренер колористів, автор власних навчальних програм. <br>Понад 100
+                випущених професійних колористів</div>
+            <a target="_blank" href="https://www.instagram.com/veronikakravchenko/" class="btn-link hicon-instagram"> Перейти в мій особістий INSTAGRAM</a>
+        </div>
+        <div class="col-2"><img src="./img/MAMABLONDA-photo.png" alt="MAMABLONDA"></div>
+    </div>
+</section>
+
 <section class="section section-chats" id="chats">
     <div class="section-wrapper">
         <div class="block-1">
@@ -179,7 +195,7 @@
                     <div class="title-1">Нас поєднують</div>
                     <div class="title-2">чати учнів</div>
                 </div>
-<!--                <div class="video"><iframe src="https://www.youtube.com/embed/K4TOrB7at0Y?si=lsY7E2OykX_BD0-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>-->
+                <div class="video"><iframe src="https://www.youtube.com/embed/vYwcK_GMKzM?si=cUKB4XfHGi7VdXvw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
             </div>
             <div class="col-2">
                 <div class="row row-1">Отримуйте доступ до чатів перукарів-колористів,
@@ -227,13 +243,23 @@
     </div>
 </section>
 
+<div class="modal_window_google_sheets">
+    <form class="form form-group">
+        <label>Ім'я<input class="form-control" type="text" id="name" name="name"></label>
+        <label>Телефон<input class="form-control" type="text" id="phone" name="phone"></label>
+        <div class="buttons">
+            <button type="submit" class="btn btn-outline-success">Надіслати</button>
+        </div>
+    </form>
+</div>
+
 <footer>
     <div class="row row-1">
         <div class="social-networks">
-            <a href="#"><div class="hicon-telegram"></div></a>
-            <a href="#"><div class="hicon-whatsapp"></div></a>
-            <a href="#"><div class="hicon-viber"></div></a>
-            <a href="#"><div class="hicon-instagram"></div></a>
+            <a target="_blank" href="#"><div class="hicon-telegram"></div></a>
+            <a target="_blank" href="#"><div class="hicon-whatsapp"></div></a>
+            <a target="_blank" href="#"><div class="hicon-viber"></div></a>
+            <a target="_blank" href="https://www.instagram.com/veronikakravchenko/"><div class="hicon-instagram"></div></a>
         </div>
         <div class="rights">
             <div>© 2023  MAMABLONDA / Лілія Кірдяк.</div>
@@ -250,4 +276,5 @@
 <script src="js/section-experience.js"></script>
 <script src="libs/slick/slick/slick.js"></script>
 <script src="js/reviews-slider.js"></script>
+<script src="js/modal_google_sheets.js"></script>
 </html>

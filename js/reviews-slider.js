@@ -61,8 +61,6 @@ class ReviewsSlider extends Father{
         this.slider_start();
         this.btn_prev.on('click', this.prev_slide.bind(this));
         this.btn_next.on('click', this.next_slide.bind(this));
-
-        this.mobile_sittings();
     }
 }
 
