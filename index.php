@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <!-- Meta-тег "nofollow" для заборони індексації пошуковими системами -->
-    <meta name="robots" content="nofollow">
+<!--    <meta name="robots" content="nofollow">-->
 
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -95,7 +95,7 @@
         <div class="col2">
             <div class="row row1">
                 <div class="percent">97.1%</div>
-                <div class="description">Наших учеників повідомили, що<br> отримали від курсів більше информації,
+                <div class="description">Наші учні повідомили, що<br> отримали від курсів більше информації,
                     <br> ніж очікували</div>
             </div>
             <div class="row row2">
@@ -105,7 +105,7 @@
             </div>
             <div class="row row3">
                 <div class="percent">67.1%</div>
-                <div class="description">Наших учеників почали працювати на себе<br> після курсу, почавши
+                <div class="description">Наші учні почали працювати на себе<br> після курсу, почавши
                     використовувати<br> вивчені практики</div>
             </div>
         </div>
@@ -256,7 +256,7 @@
             </div>
         </div>
         <div class="col-2">
-            <div class="title">Результати<br>та <span class="gradient">відгуки</span><br>учениць<br><b>Лілії Кірдяк</b></div>
+            <div class="title">Результати<br>та <span class="gradient">відгуки</span><br>учнів<br><b>Лілії Кірдяк</b></div>
             <div class="description">Все ще сумніваєтеся в тому, що ця освіта є корисною?</div>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSelnPLsf8Z56Q5luEyX36SjVudIoCEtVAM-dc48IyBkwClQdg/viewform" target="_blank" class="btn-link">Заповнити анкету передзапису</a>
         </div>

@@ -136,6 +136,13 @@
     }
 
 }
+@media screen and (max-width: 376px) {
+    .section-acquaintance .col-1 .title-1{
+        font-size: 44px;
+        position: relative;
+        margin: 10px 0;
+    }
+}
 @media screen and (max-width: 321px) {
     .section-acquaintance .col-1 .title-1{
         font-size: 40px;
