@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a4eb087-6a6a-4005-a6cc-d91e21a193d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/MAMABLONDA.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/video_2023-10-23_22-59-46.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/section-online-pgogram.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/section-online-pgogram.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +57,8 @@
       <workItem from="1698072020164" duration="923000" />
       <workItem from="1698075445640" duration="655000" />
       <workItem from="1698078235369" duration="174000" />
-      <workItem from="1698090445665" duration="1155000" />
+      <workItem from="1698090445665" duration="1636000" />
+      <workItem from="1698187601935" duration="5695000" />
     </task>
     <servers />
   </component>
@@ -69,9 +69,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="277" y="55" key="SettingsEditor" timestamp="1698078408670">
+    <state x="277" y="55" key="SettingsEditor" timestamp="1698192829628">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1698078408670" />
+    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1698192829628" />
   </component>
 </project>

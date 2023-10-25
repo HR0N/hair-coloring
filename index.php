@@ -127,26 +127,34 @@
         </div>
         <div class="block2">
             <div class="row row1">
-                <div class="title1">"АIRTOUCH"<br>&nbsp;безшовний<br>&nbsp;авторський</div>
+                <div class="wrap1">
+                    <div class="title1">"АIRTOUCH+КОНТУРІНГ"</div>
+                    <div class="description-red">останні тенденції</div>
+                    <div class="description1">Контурінг на натуральне волосся технікою АIRTOUCH</div>
+                </div>
                 <div class="line"></div>
-                <div class="description1">Айртач,пакування,нанесення,</div>
-                <div class="description2">баланс в % співвідношенні блонду!!</div>
+                <div class="wrap2">
+                    <div class="title2">"Back to Back"</div>
+                    <div class="description-red">контурінг метод</div>
+                    <div class="description2">З тотал блонду в розтяжку Дімаут+Контурінг<br>«Ефект Омбре»</div>
+                </div>
             </div>
             <div class="row row2">
-                <div class="title">"АIRTOUCH+КОНТУРІНГ"</div>
-                <div class="description1">останні тенденції</div>
+                <div class="title1">"ВИХІД З ЧОРНОГО"</div>
+                <div class="description-red"></div>
+                <div class="description1">Косметична База від 1/0 (смола)-до 6/0 (русий) за один сеанс (6 годин)!</div>
                 <div class="line"></div>
-                <div class="description2">Контурінг на натуральне волосся технікою АIRTOUCH</div>
-                <div class="dontKnow"></div>
+                <div class="description2">Моя авторська методика відточена до ідеалу!</div>
+<!--                <div class="dontKnow"></div>-->
                 <div class="scissors">
                     <img src="img/scissors.webp" alt="hairdresser tool">
                 </div>
             </div>
             <div class="row row3">
-                <div class="title">"Back to Back" </div>
-                <div class="description1">контурінг метод</div>
+                <div class="title1">"Офлайн навчання в Студіі MAMABLONDA"</div>
+                <div class="description1">Базова колористика</div>
                 <div class="line"></div>
-                <div class="description2">З тотал блонду в розтяжку Дімаут+Контурінг<br>«Ефект Омбре»</div>
+                <div class="description2">Моя Авторська Сучасна Колориситика Самі Комерційні техніки Фарбувань! Всі фішки і секрети!</div>
             </div>
         </div>
         <div class="block3">
@@ -279,7 +287,7 @@
             <div>Всі права захищено.</div>
         </div>
     </div>
-    <div class="row row-2"><img src="img/MAMABLONDA%201.png" alt="MAMABLONDA"></div>
+    <div class="row row-2"><img style="border-radius: 2rem" src="img/MAMABLONDA.gif" alt="MAMABLONDA"></div>
 </footer>
 </body>
 <script src="libs/jquery/jquery.js"></script>
